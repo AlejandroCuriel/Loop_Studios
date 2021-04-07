@@ -1,0 +1,16 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (8.10.0~dfsg-2ubuntu0.4).
+The following packages were automatically installed and are no longer required:
+  fwupd fwupd-signed fwupdate-signed gir1.2-vte-2.91 libfwupd2 libido3-0.1-0
+  libsmbios-c2 libxmlb1 linux-headers-5.4.0-42-generic
+  linux-headers-5.4.0-65-generic linux-headers-5.4.0-66-generic
+  linux-hwe-5.4-headers-5.4.0-42 linux-hwe-5.4-headers-5.4.0-65
+  linux-hwe-5.4-headers-5.4.0-66 linux-image-5.4.0-42-generic
+  linux-image-5.4.0-65-generic linux-image-5.4.0-66-generic
+  linux-modules-5.4.0-42-generic linux-modules-5.4.0-65-generic
+  linux-modules-5.4.0-66-generic linux-modules-extra-5.4.0-42-generic
+  linux-modules-extra-5.4.0-65-generic linux-modules-extra-5.4.0-66-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
