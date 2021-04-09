@@ -1,0 +1,30 @@
+.only-mobile {
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.only-desktop {
+  display: none;
+  @media only screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin: 20px 5%;
+  width: 100%;
+  color: white;
+  @media only screen and(min-width:768px) {
+    margin: 40px 10%;
+  }
+}
+.container {
+  width: 90%;
+  @media only screen and(min-width:768px) {
+    width: 80%;
+  }
+}

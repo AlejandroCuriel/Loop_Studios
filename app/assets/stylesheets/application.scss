@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import "home";
+@import "about";
+@import "navbar";
+@import "homepage-hero";
