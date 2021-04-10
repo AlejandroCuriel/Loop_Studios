@@ -1,0 +1,12 @@
+:root {
+  --main-text: "Josefin Sans", sans-serif;
+  --secundary-text: "Alata", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  @media only screen and(min-width:768px) {
+    width: 100%;
+    max-width: 1440px;
+  }
+}

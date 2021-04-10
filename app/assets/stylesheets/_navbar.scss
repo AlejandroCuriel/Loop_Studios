@@ -18,13 +18,27 @@
   margin: 20px 5%;
   width: 100%;
   color: white;
+  transform: translate(7%, -50%);
+  top: 6%;
   @media only screen and(min-width:768px) {
-    margin: 40px 10%;
+    width: 82% !important;
+    transform: translate(-49%, -50%);
+    left: 50%;
+    top: 10%;
   }
-}
-.container {
-  width: 90%;
-  @media only screen and(min-width:768px) {
-    width: 80%;
+  @media only screen and(min-width:1400px) {
+    margin: 40px 10%;
+    transform: translate(-53%, -50%);
+    left: 50%;
+    top: 10%;
+  }
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--secundary-text);
+    margin-left: 40px;
+  }
+  .menu-list a:first-child {
+    margin-left: 0;
   }
 }
