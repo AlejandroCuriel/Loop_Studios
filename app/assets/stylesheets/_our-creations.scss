@@ -1,0 +1,121 @@
+.section-creation{
+    height: 1300px;
+    @media only screen and(min-width:768px){
+    height: 1200px;
+        position: relative;
+    }
+}
+.section-creation h2{
+    text-align: center;
+    font-family: var(--main-text);
+    @media only screen and(min-width:768px){
+        font-size: 40px;
+        text-align: start;
+
+    }
+}
+.section-creation__content{
+    @media only screen and(min-width:768px){
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 32px;
+    }
+}
+.section-container{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 119px;
+    margin-bottom: 20px;
+    position: relative;
+    @media only screen and(min-width:768px){
+        height: 485px;
+        width: 100%;
+    }
+}
+.section-container:last-of-type{
+    margin-bottom: 40px;
+}
+
+.section-creation__content span{
+    position: absolute;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.560));
+    height: 100%;
+    width: 80%;
+    @media only screen and(min-width:768px){
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.560));
+        width: 275px;
+        height: 485px;
+
+    }
+}
+.section-creation__content p{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--main-text);
+    font-size: 1.7rem;
+    padding-left: 25px;
+    bottom: 17px;
+    margin-bottom: 0;
+    line-height: 0.9;
+    @media only screen and(min-width:768px){
+        bottom: 38px;
+        font-size: 2.2rem;
+    }
+}
+.section-creation__content--deep-earth{
+    background-image: url(asset_path("mobile/image-deep-earth.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-deep-earth.jpg"));
+    }
+}
+.section-creation__content--night-arcade{
+    background-image: url(asset_path("mobile/image-night-arcade.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-night-arcade.jpg"));
+    }
+}
+.section-creation__content--soccer-team{
+    background-image: url(asset_path("mobile/image-soccer-team.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-soccer-team.jpg"));
+    }
+}
+.section-creation__content--grid{
+    background-image: url(asset_path("mobile/image-grid.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-grid.jpg"));
+    }
+}
+.section-creation__content--from-above{
+    background-image: url(asset_path("mobile/image-from-above.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-from-above.jpg"));
+    }
+}
+.section-creation__content--pocket-borealis{
+    background-image: url(asset_path("mobile/image-pocket-borealis.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-pocket-borealis.jpg"));
+    }
+}
+.section-creation__content--curiosity{
+    background-image: url(asset_path("mobile/image-curiosity.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-curiosity.jpg"));
+    }
+}
+.section-creation__content--fisheye{
+    background-image: url(asset_path("mobile/image-fisheye.jpg"));
+    @media only screen and(min-width:768px){
+        background-image: url(asset_path("desktop/image-fisheye.jpg"));
+    }
+}
+.section-creation--button{
+    @media only screen and(min-width:768px){
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+}

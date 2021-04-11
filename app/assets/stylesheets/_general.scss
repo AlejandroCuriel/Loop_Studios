@@ -10,3 +10,18 @@
     max-width: 1200px;
   }
 }
+.button{
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  text-transform: uppercase;
+  font-family: var(--secundary-text);
+  padding: 5px 20px;
+  border: 1px solid black;
+  color: black;
+  font-size: 17px;
+  line-height: 2;
+  width: 198px;
+  letter-spacing: 6px;
+  cursor: pointer;
+}
