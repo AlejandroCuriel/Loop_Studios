@@ -38,9 +38,20 @@
     justify-content: center;
     margin-bottom: 25px;
     font-family: var(--secundary-text);
+    background-image: linear-gradient(white,white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .3s ease;
+    padding-bottom: 5px;
     @media only screen and(min-width:768px){
         display: inline;
+        margin: 0 25px 25px 0;
+
     }
+}
+.footer__nav a:hover{
+    background-size: 100% 2px;
 }
 .footer__nav a:last-child{
     margin-bottom: 40px;
