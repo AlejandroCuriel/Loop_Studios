@@ -37,7 +37,17 @@
     text-decoration: none;
     font-family: var(--secundary-text);
     margin-left: 40px;
+    font-size: 20px;
+    background-image: linear-gradient(white,white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: all .3s ease;
+    padding-bottom: 5px;
   }
+  .menu-list a:hover{
+    background-size: 100% 2px;
+}
   .menu-list a:first-child {
     margin-left: 0;
   }
