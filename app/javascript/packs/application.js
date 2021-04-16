@@ -11,3 +11,24 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+window.addEventListener("DOMContentLoaded", function(){
+    console.log("op")
+    let navegationTag = document.getElementById('nav');
+    addScrollEvent(navegationTag);
+})
+
+function addScrollEvent(navegationTag){
+    window.addEventListener("scroll", function(){
+        if(window.scrollY > 100){
+            navegationTag.classList.add("nav-scroll");
+            navegationTag.classList.add("content-scroll");
+
+        }else{
+            navegationTag.classList.remove("nav-scroll");
+            navegationTag.classList.add("content-scroll");
+
+        }
+    })
+}
+

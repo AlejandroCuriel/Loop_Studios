@@ -16,12 +16,12 @@
   align-items: center;
   position: fixed;
   margin: 20px 5%;
-  width: 100%;
-  color: white;
-  transform: translate(7%, -50%);
+  padding: 15px 30px;
+  width: 101% !important;
+  color: #fff;
+  transform: translate(0%, -50%);
   top: 6%;
   @media only screen and(min-width:768px) {
-    width: 82% !important;
     transform: translate(-49%, -50%);
     left: 50%;
     top: 10%;
@@ -31,14 +31,17 @@
     transform:translate(-50.5%, -50%);
     left: 50%;
     top: 10%;
+    padding: 15px 100px;
+    max-width: 85.6% !important;
+
   }
   .menu-list a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-family: var(--secundary-text);
     margin-left: 40px;
     font-size: 20px;
-    background-image: linear-gradient(white,white);
+    background-image: linear-gradient(#fff,#fff);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -47,8 +50,38 @@
   }
   .menu-list a:hover{
     background-size: 100% 2px;
-}
+  }
   .menu-list a:first-child {
     margin-left: 0;
   }
+  .menu-list--contact:last-child:hover{
+    border: solid 1px #fff;
+    padding: 5px 10px;
+    background-image: none;
+  }
+  .menu-list--contact:hover{
+    background-size: 100% 2px;
+    background-color: #fff;
+    color: #000;
+  }
+}
+.nav-scroll{
+  background-color: rgb(49, 49, 49);
+  opacity: .8;
+  z-index: 100;
+  transition: all .3s ease;
+  color: white;
+  transform:translate(-0.5%, -66%);
+  @media only screen and(min-width:768px){
+  transform:translate(-50.5%, -148%);
+
+  }
+}
+.content-scroll{
+  max-width: 101% !important;
+  width: 101% !important;
+  @media only screen and(min-width:768px){
+    padding: 15px 13%;
+  }
+
 }

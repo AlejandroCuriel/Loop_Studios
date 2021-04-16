@@ -1,16 +1,12 @@
 .contact{
     border: 1px solid black;
     padding: 15px;
-    margin-bottom: 70px;
+    margin: 0 auto 100px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.774);
-    -webkit-box-shadow: 15px 30px 49px -13px rgba(0,0,0,0.75);
-    -moz-box-shadow: 15px 30px 49px -13px rgba(0,0,0,0.75);
     box-shadow: 15px 30px 49px -13px rgba(0,0,0,0.75);
     @media only screen and(min-width:768px){
         width: 70%;
-        margin: 0 auto 100px;
-
     }
 }
 .contact h2{
@@ -70,4 +66,13 @@
     color: black;
     border-color: black;
 
+}
+.demo{
+    height:100%; 
+    background-image:url(asset_path('bg.jpeg'));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 170px;
 }
