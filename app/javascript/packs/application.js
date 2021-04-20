@@ -9,13 +9,14 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
 Rails.start()
-Turbolinks.start()
+// Turbolinks.start()
 ActiveStorage.start()
 
 window.addEventListener("DOMContentLoaded", function(){
     console.log("op")
     let navegationTag = document.getElementById('nav');
     addScrollEvent(navegationTag);
+    // addLinkEvent(navegationTag);
 })
 
 function addScrollEvent(navegationTag){
@@ -23,12 +24,21 @@ function addScrollEvent(navegationTag){
         if(window.scrollY > 100){
             navegationTag.classList.add("nav-scroll");
             navegationTag.classList.add("content-scroll");
-
         }else{
             navegationTag.classList.remove("nav-scroll");
             navegationTag.classList.add("content-scroll");
-
         }
     })
 }
 
+// function addLinkEvent(navegationTag){
+//     let listContainer = document.getElementById("menu-list");
+//     let listsElements = Array.from(listContainer.querySelectorAll("a"));
+//     listsElements.forEach(function(element){
+//         element.addEventListener("click",function(){
+//             navegationTag.classList.add("content-scroll");
+//             navegationTag.classList.add("nav-scroll");
+//             console.log("op")   
+//         })
+//     })
+// }
