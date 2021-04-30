@@ -2,13 +2,24 @@
     <%= render partial: 'shared/navbar' %> 
     <section class="contact">
         <h2>Contact</h2>
-        <form action="">
+
+        <%= form_with do |form| %>
+            <%= form.text_field :name, placeholder:'Name', required:true %>
+            <%= form.telephone_field :phone, placeholder:'Phone', required:true %>
+            <%= form.email_field :email, placeholder:'Email', required:true %>
+            <%= form.text_area :comment, placeholder:'Message' %>
+            <%= button_tag 'Send', type:'submit', class:'button' %>
+        <% end %>
+
+
+
+        <!--<form action="">
             <input type="text" name="" id="" placeholder="Name">
             <input type="tel" name="" id="" placeholder="Phone">
             <input type="email" name="" id="" placeholder="Email">
             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
             <button class="button">Enviar</button>
-        </form>
+        </form>-->
     </section>
     <%= render partial: 'shared/footer' %> 
 </div>

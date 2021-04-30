@@ -1,12 +1,14 @@
 .contact{
     border: 1px solid black;
     padding: 15px;
-    margin: 0 auto 100px;
+    margin: 0 10px 100px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.774);
     box-shadow: 15px 30px 49px -13px rgba(0,0,0,0.75);
     @media only screen and(min-width:768px){
         width: 70%;
+        margin: 0 auto 100px;
+
     }
 }
 .contact h2{

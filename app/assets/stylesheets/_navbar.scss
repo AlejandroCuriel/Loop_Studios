@@ -71,10 +71,9 @@
   z-index: 100;
   transition: all .3s ease;
   color: white;
-  transform:translate(-0.5%, -66%);
+  transform:translate(-0.5%, -91%);
   @media only screen and(min-width:768px){
-  transform:translate(-50.5%, -148%);
-
+    transform:translate(-50.5%, -148%);
   }
 }
 .content-scroll{
@@ -83,5 +82,4 @@
   @media only screen and(min-width:768px){
     padding: 15px 13%;
   }
-
 }
